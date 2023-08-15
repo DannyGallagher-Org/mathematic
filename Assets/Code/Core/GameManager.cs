@@ -25,7 +25,7 @@ namespace Code.Core
 
         private StateMachine _stateMachine;
 
-        private void Awake()
+        private void Start()
         {
             GameHudView.AnimateOff(null, 0f);
             TitleView.AnimateOff(null, 0f);
